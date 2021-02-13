@@ -3,4 +3,4 @@
  
  Uses a simple 2 layer set-up - one hidden layer with four nodes and one output layer. Both layers use a sigmoid activation function. Added a learning rate and may add a bias term. 
 
-I go through a toy example using synthetic soil moisture and soil grain size data to predict CO<sub>2</sub> flux. I look at how predictions change based on the properties of the training data set. If your training data set does not adequetaly span the full range of values, your model will not be able to "learn" how to predict these conditions. 
+I go through a toy example using synthetic soil moisture and soil grain size data to predict CO<sub>2</sub> flux. I look at how predictions change based on the properties of the training data set. If your training data set does not adequetaly span the full range of values, your model will not be able to "learn" how to make accurate predictions under these conditions. 
