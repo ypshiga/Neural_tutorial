@@ -2,7 +2,7 @@
 ## What am I doing here? 
 This is rough around the edges Artificial Neural Network (ANN) tutorial I developed to get started with ANNs in python. I am using Jupyter notebooks and Python 3. The ANN structure for the NN_tutorial is primarily based on this Medium post https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6 and inputs for NN_tutorial are based on this towards data science post https://towardsdatascience.com/artificial-neural-networks-for-total-beginners-d8cd07abaae4
  
-## NN_tutorial: 
+## [NN_tutorial](https://github.com/ypshiga/Neural_tutorial/blob/main/NN_tutorial.ipynb "NN_tutorial"): 
 First (using above posts) I build a ANN from scrath in python using a simple 1 layer set-up - one hidden layer with four nodes and one output layer. Both layers use a sigmoid activation function. I wanted to get an idea of how forward and backpropogation works in a simple code. I also added a learning rate and may add a bias term. 
 
 I go through a toy example using synthetic (made-up) soil moisture and soil grain size data to predict (made-up) CO<sub>2</sub> flux. I look at how predictions change based on the properties of the training data set. I create a cartoon/toy example that shows if your training data do not adequetaly span the full range of values, your model will not be able to "learn" how to make accurate predictions under "real world" conditions. This is a cartoon example but helps to clarify the basics of an ANN.
